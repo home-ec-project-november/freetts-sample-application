@@ -20,6 +20,17 @@
           <url>https://maven.java.net/content/repositories/public/</url>
       </repository>
       <repository>
+	      <id>nexus</id>
+	      <name>Releases Nexus Repository</name>
+	      <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
+	    </repository>
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Snapshot Nexus Repository </name>
+	      <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
+	    </snapshotRepository>
+      <!--
+      <repository>
           <id>JBoss repository</id>
           <url>http://repository.jboss.org/nexus/content/groups/public/</url>
       </repository>
@@ -33,6 +44,7 @@
               <enabled>true</enabled>
           </snapshots>
       </repository>
+      -->
   </repositories>
 
   <dependencies>
