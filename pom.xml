@@ -14,8 +14,9 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+<!--
   <repositories>
-      <repository>
+	  <repository>
           <id>java.net</id>
           <url>https://maven.java.net/content/repositories/public/</url>
       </repository>
@@ -36,7 +37,7 @@
           </snapshots>
       </repository>
   </repositories>
-
+-->
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
