@@ -24,11 +24,13 @@
 	  <name>Releases Nexus Repository</name>
 	  <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
        </repository>
+	  
        <snapshotRepository>
 	  <id>nexus</id>
 	  <name>Snapshot Nexus Repository </name>
 	  <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
 	</snapshotRepository>
+	  
       <!--
       <repository>
           <id>JBoss repository</id>
