@@ -19,18 +19,7 @@
           <id>java.net</id>
           <url>https://maven.java.net/content/repositories/public/</url>
       </repository>
-      <repository>
-	  <id>nexus</id>
-	  <name>Releases Nexus Repository</name>
-	  <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
-       </repository>
-	  
-       <snapshotRepository>
-	  <id>nexus</id>
-	  <name>Snapshot Nexus Repository </name>
-	  <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
-	</snapshotRepository>
-	  
+      	  
       <!--
       <repository>
           <id>JBoss repository</id>
@@ -97,4 +86,17 @@
         <version>1.2.2</version>
     </dependency>
   </dependencies>
+	
+  <distributionManagement>
+	<repository>
+	  <id>nexus</id>
+	  <name>Releases Nexus Repository</name>
+	  <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
+       </repository>
+       <snapshotRepository>
+	  <id>nexus</id>
+	  <name>Snapshot Nexus Repository </name>
+	  <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
+	</snapshotRepository>	  
+  </distributionManagement>
 </project>
