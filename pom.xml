@@ -14,7 +14,6 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
-<!--
   <repositories>
 	  <repository>
           <id>java.net</id>
@@ -37,7 +36,7 @@
           </snapshots>
       </repository>
   </repositories>
--->
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
