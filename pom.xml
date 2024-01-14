@@ -20,20 +20,21 @@
           <url>https://maven.java.net/content/repositories/public/</url>
       </repository>
       <repository>
-	      <id>nexus</id>
-	      <name>Releases Nexus Repository</name>
-	      <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
-	    </repository>
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Snapshot Nexus Repository </name>
-	      <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
-	    </snapshotRepository>
+	  <id>nexus</id>
+	  <name>Releases Nexus Repository</name>
+	  <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
+       </repository>
+       <snapshotRepository>
+	  <id>nexus</id>
+	  <name>Snapshot Nexus Repository </name>
+	  <url>http://3.120.40.159:8081/repository/freetts-sample-application/</url>
+	</snapshotRepository>
       <!--
       <repository>
           <id>JBoss repository</id>
           <url>http://repository.jboss.org/nexus/content/groups/public/</url>
       </repository>
+      -->
       <repository>
           <id>sonatype-oss-public</id>
           <url>https://oss.sonatype.org/content/groups/public/</url>
@@ -44,7 +45,6 @@
               <enabled>true</enabled>
           </snapshots>
       </repository>
-      -->
   </repositories>
 
   <dependencies>
